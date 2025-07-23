@@ -166,7 +166,7 @@ const description9="Make your event arrival as memorable as the celebration itse
 const description10="Our lighting and ambiance services transform any venue into a captivating space that matches your event's mood and theme. From soft romantic glows to vibrant party lighting, we tailor every setup to enhance the experience and elevate the atmosphere. The right lighting doesn't just illuminate—it creates unforgettable moments.";
 const description11="Our wedding stationery services offer beautifully crafted invitations, save-the-dates, menus, and signage that reflect your unique love story. Every design is thoughtfully tailored to match your theme and tone—setting the perfect first impression for your celebration. From elegant minimalism to intricate artwork, we bring your vision to life on paper.";
   return (
-    <div>
+    <div classname="app-class border border-danger>
     
        <Slider dataset={slide}/>
       
