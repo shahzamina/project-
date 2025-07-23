@@ -1,0 +1,58 @@
+.arrow-button {
+  border: none;
+  background-color: transparent;
+  border-radius:2%;
+  width: 20px;
+  height: 20px;
+  font-size: 30px;
+  color: black;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.arrow-button:hover {
+   transform: scale(1.1);
+  }
+.card-com {
+  margin-left: 45%;
+  }
+  @media (max-width: 992px) {
+  .card-com {
+  margin-left: 45%;
+  }
+}
+@media (max-width: 768px) {
+  .card-com {
+   margin-left: 35%;
+  }
+}
+@media (max-width: 567px) {
+  .card-com {
+  margin-left: 25%;
+  }
+}
+.c-class {
+    width: 100%; 
+  }
+  @media (max-width: 992px) {
+  .c-class {
+     width: 100%; 
+  
+  }
+}
+@media (max-width: 768px) {
+  .c-class {
+    width:100%; 
+  
+  }
+}
+@media (max-width: 567px) {
+  .c-class {
+    width: 95%; 
+    margin: 0 auto;
+  }}
+
+
+

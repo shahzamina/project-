@@ -1,0 +1,197 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* semi-dark background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.t-wid{
+     margin-left: 10%;
+     margin-right: 10%;
+  }
+@media (max-width: 992px) {
+  .t-wid{
+      margin-left: 10%;
+     margin-right: 10%;
+  }
+}
+@media (max-width: 768px) {
+  .t-wid {
+    margin-left: 0px;
+    width: 66%;  
+  }
+}
+@media (max-width: 567px) {
+  .t-wid {
+    margin-left: 0px;
+    width: 95%;
+  }
+}
+.cus-creat {
+    margin-left: 80%;
+  }
+  @media (max-width: 992px) {
+  .cus-creat {
+    margin-left: 80%;
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .cus-creat {
+  margin-left: 15%;
+  width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .cus-creat {
+  margin-left: 8%;
+  width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .table1 {
+  margin-left: 3%;
+  width: 100%;
+  }
+}
+
+.table1 button {
+       width: 25%;
+  }
+@media (max-width: 992px) {
+  .table1 button{
+       width: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .table1 button{
+       width: 100%;
+  }
+}
+@media (max-width: 768px){
+.twid{
+      margin-left: 1px;
+}
+}
+@media (max-width: 768px){
+.twid1{
+    width:"150%"
+}
+
+}
+
+@media (max-width : 768px) {
+  .read{
+    width:74%;
+  }
+}
+
+@media (max-width : 567px) {
+  .read1{
+    width:100%;
+  }
+}
+@media (max-width : 567px) {
+  .read{
+    width:95%;
+  }
+}
+
+@media (max-width : 768px) {
+  .read1{
+    width:95%;
+  }
+}
+.delete{
+    width:100%;
+ }
+
+@media (max-width : 992px) {
+  .delete{
+    width:100%;
+     }
+}
+
+
+@media (max-width : 768px) {
+  .delete{
+    width:74%;
+     }
+}
+@media (max-width : 567px) {
+  .delete{
+    width:95%;
+     }
+}
+
+.delete1{
+    width:35%;
+     }
+@media (max-width : 992px) {
+  .delete1{
+  width:35%;
+  }
+}
+
+@media (max-width : 768px) {
+  .delete1{
+    width:87%;
+    margin-left: 2%;
+  }
+}
+@media (max-width : 567px) {
+  .delete1{
+    width:80%;
+    margin-left: 2%;
+  }
+}
+
+.delete1 button{
+    width:25%;
+     }
+@media (max-width : 992px) {
+  .delete1 button{
+    width:25%;
+  }
+}
+
+@media (max-width : 768px) {
+  .delete1 button{
+    width:30%;
+     }
+}
+.edit{
+   margin-top: 4%;
+     }
+@media (max-width : 992px) {
+  .edit{
+    margin-top: 4%;
+  }
+}
+@media (max-width : 768px) {
+  .edit{
+    margin-top: 15%;
+     }
+}
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+
+@media (max-width: 567px) {
+  .your-class {
+      display: flex;
+  flex-direction: column;
+
+   gap: 5px;
+  width: 95%;
+  }
+}
+.pack-class {
+ 
+    width: 70%; 
+   margin: 0 auto;
+  }
+  @media (max-width: 992px) {
+  .pack-class {
+   width: 70%; 
+   margin: 0 auto;
+  
+  }
+}
+@media (max-width: 768px) {
+  .pack-class {
+    width: 80%; 
+   
+  
+  }
+}
+
+@media (max-width: 567px) {
+  .pack-class {
+    width: 95%;
+   
+  
+  }
+}
+@media (max-width: 567px) {
+  .p-class {
+  
+    margin: 0 auto;
+  
+  }
+}

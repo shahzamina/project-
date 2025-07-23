@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+.app-class {
+    width: 100%; 
+  }
+  @media (max-width: 992px) {
+  .app-class {
+     width: 100%; 
+  
+  }
+}
+@media (max-width: 768px) {
+  .app-class {
+    width:100%; 
+  
+  }
+}
+@media (max-width: 567px) {
+  .app-class {
+    width: 80%; 
+    
+  }
+}
+
