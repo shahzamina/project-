@@ -8,14 +8,7 @@ const Navbar = ({home}) => {
 
   return (
   <div className='nav-class Dyn-nav border border-success '>
-     <div className='display gap-sm-1 bg-warning h-auto' >
-      <p className='style com  ps-1 mb-0'>We are one of Top Event Management Companies in Pakistan</p>
-      <div className="display gap-sm-2 me-3">
-              <Link to="https://www.facebook.com/dynamiceventmanagement.official?mibextid=wwXIfr&rdid=0nOzKKHgK5tilVyq&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16qSTSdBUr%2F%3Fmibextid%3DwwXIfr#" target='blank'><i className=" icons fa-brands fa-facebook text-black  "></i></Link>
-              <Link to="https://api.whatsapp.com/send?phone=%2B923366334881&context=AfeJe7utDT7pt26ejAdI4w7NSRLvG_wCspIe2AiAcxLtMDGSinkyQ3NREMVukOYgFs1BzBjgii6c5ro7JI5elVkzYqDpaoNChSaAZuwfG70Ck6I0OMQwYZQRREdUBSnS6G-kvQvaXOt1zkioc8ya97-PvA&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwY2xjawLYqXZleHRuA2FlbQIxMABicmlkETF2N1k4dnFjOGNQWkZNNkpVAR5Sfx1kU0cuNIfXDfYMco-YDtadvQS7WNfXwQH8JstE4T-rBAW8bLooLk5-9A_aem_9wahfUOgfYCTfAHLlVGArQ" target='blank'><i className=" icons  fa-brands fa-whatsapp text-black "></i></Link>
-              <Link to="https://www.instagram.com/accounts/login/?next=%2Fdynamiceventmanagementofficial%2F&source=omni_redirect" target='blank'><i className=" icons  fa-brands fa-instagram text-black  "></i></Link>
-              </div>
-    </div>
+     
     <div className="navbar  px-3 py-2  gap-md-5 gap-sm-1 ">
         
         <Link to="/"><img className="Nav-image" src="./Images/Dlogo.png" alt="Logo"/></Link>
